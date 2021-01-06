@@ -52,13 +52,34 @@
             $('input').val(utm_medium)
         })
     </script>
-
+    <style type="text/css">
+            html, body {
+                height : 100%;
+                width : 100%;
+                overflow : hidden;
+            }
+            .wrapper {
+                height : 100%;
+                width : 100%;
+                padding: 20px;
+            }
+            .content {
+                border: 2px solid black;
+                background-color: white;
+                border-color: #2196F3;
+                height : 100%;
+                width : 100%;
+            }
+    </style>
 </head>
 <body>
-    <center>
-        <h2>Facebook Code</h2>
-        <input type="text" value="Hello World" id="myInput">
-        <button class="btn" onclick="myFunction()"><i class="fa fa-clone"></i></button>
-    </center>
+        <div class="wrapper">
+            <div class="content">
+                <h2>Facebook Code</h2>
+                <input type="text" value="Hello World" id="myInput">
+                <button class="btn" onclick="myFunction()"><i class="fa fa-clone"></i></button>
+            </div>
+        </div>
+        
 </body>
 </html>
